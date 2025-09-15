@@ -1,1 +1,1 @@
-# Seo-JaeKwon
+#  👋, I'm Seo JaeKwon
