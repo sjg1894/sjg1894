@@ -7,7 +7,7 @@
 - 🌱 현재: 시스템 엔지니어 취업 준비 중  
 - 📝 이력서: [이력서_서재권.pdf]()
 - 노션 공부 자료: [Notion](image.pdf)
-- 🏆 보유 자격증: AWS-DEA C01, Terraform, 네트워크관리사 2급, 리눅스마스터 2급
+- 🏆 주요 자격증: AWS Certified Data Engineer – Associate (DEA), Terraform associate 003
 <img width="150" height="auto" alt="aws-certified-data-engineer-associate" src="https://github.com/user-attachments/assets/36163081-9f97-461a-9f72-d27f896fcdb3" />
 <img width="150" height="auto" alt="hashicorp-certified-terraform-associate-003" src="https://github.com/user-attachments/assets/771c2bcf-0001-4af9-bc04-dc473f02ad83" />
 
@@ -18,3 +18,34 @@
     <img src="https://skillicons.dev/icons?i=aws,kubernetes,docker,terraform,linux,gcp,visualstudio,vscode,git,windows,notion" />
   </a>
 </p>
+
+## 📚 보유 자격증
+
+- AWS Certified Data Engineer – Associate (DEA)
+- Terraform associate 003
+- 리눅스마스터 2급
+- 네트워크관리사 2급
+- 정보처리기능사
+- 운전면허 2종 보통
+- 
+## 🎓 교육 이력
+- 대우능력개발원 - 클라우드 기반 정보시스템 구축 전문가 양성
+    -2025-04 ~ 2025-12
+- <교육 과정>
+      - 서버 (Linux, Window server)
+      - 네트워크 (Cisco)
+      - Docker & Kubernetes
+      - AWS (+EKS)
+      - Git
+
+## 🔧 연수 이력
+- 클라우드 서비스 솔루션 설계 기초
+  - [K-디지털] 온라인평생교육원
+  - 2025-09-08 ~ 2025-10-07
+ 
+     
+- 클라우드 인프라 네트워크 구성
+  - [K-디지털] 온라인평생교육원
+  - 2025-09-15 ~ 2025-10-14
+
+
