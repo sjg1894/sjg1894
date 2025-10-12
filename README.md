@@ -10,9 +10,8 @@
 - 🏆 주요 자격증: AWS Certified Data Engineer – Associate (DEA), Terraform associate 003 , CCNA 200-301
 <img width="150" height="auto" alt="aws-certified-data-engineer-associate" src="https://github.com/user-attachments/assets/36163081-9f97-461a-9f72-d27f896fcdb3" />
 <img width="150" height="auto" alt="hashicorp-certified-terraform-associate-003" src="https://github.com/user-attachments/assets/771c2bcf-0001-4af9-bc04-dc473f02ad83" />
-<a href="https://www.credly.com/badges/3ae995f2-2dd4-475b-9b43-1445bc19ee50/public_url">
-  <img width="150" height="auto" alt="cisco-certified-network-associate-ccna-200-301" src="https://images.credly.com/images/1580d19c-0912-4c60-a8d6-7243c242c7de/image.png" />
-</a>
+<img width="150" height="auto" alt="cisco-certified-network-associate-ccna-200-301" src="https://images.credly.com/images/3ae995f2-2dd4-475b-9b43-1445bc19ee50" />
+
 
 ## 🔥기술 / Skills
 한번이라도 사용했던 경험이 있는 기술들
@@ -26,6 +25,7 @@
 
 - AWS Certified Data Engineer – Associate (DEA)
 - Terraform associate 003
+- CCNA 200-301
 - 리눅스마스터 2급
 - 네트워크관리사 2급
 - 정보처리기능사
