@@ -1,8 +1,6 @@
 #  👋Hi, I'm Seo JaeKwon
 ---
 
-
-
 # 📂 소개
 - 🌱 현재: 시스템 엔지니어 취업 준비 중  
 - 📝 이력서: [이력서_서재권.pdf]()
@@ -14,9 +12,6 @@
   <img width="150" height="auto" alt="ccna-certification-badge" src="https://images.credly.com/size/680x680/images/683783d8-eaac-4c37-a14d-11bd8a36321d/ccna_600.png" />
 </div>
 ---
-
-
-
 
 # 🔥기술 / Skills
 한번이라도 사용했던 경험이 있는 기술들
@@ -36,7 +31,6 @@
 - 네트워크관리사 2급
 - 정보처리기능사
 - 운전면허 2종 보통
-  
 ---
 
 # 🎓 교육 이력
@@ -65,7 +59,6 @@
 ---
 
 # 💼 Projects
-
 ### 1. 네트워크 프로젝트 (팀 APEX)
 - **관련 문서**: [네트워크 프로젝트](https://docs.google.com/viewer?url=https://raw.githubusercontent.com/sjg1894/sjg1894/main/docs/2_APEX%20network_project.pdf&embedded=true)
 - ⚙️ **기술 스택**: Cisco Router/Switch, EIGRP, OSPF, RIPv2, VLAN, Trunk, DHCP, STP
