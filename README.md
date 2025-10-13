@@ -65,8 +65,20 @@
 ### 1. 네트워크 프로젝트 (팀 APEX)
 - **관련 문서**: [네트워크 프로젝트](https://docs.google.com/viewer?url=https://raw.githubusercontent.com/sjg1894/sjg1894/main/docs/2_APEX%20network_project.pdf&embedded=true)
 - ⚙️ **기술 스택**: Cisco Router/Switch, EIGRP, OSPF, RIPv2, VLAN, Trunk, DHCP, STP
-- 💡 **설명**: OSPF, EIGRP 등 다양한 IGP(내부 게이트웨이 프로토콜)와 재분배(Redistribution)를 활용하여 **복잡한 네트워크 환경을 설계하고 구축**한 프로젝트입니다.
+- 💡 **설명**: OSPF, EIGRP 등 다양한 IGP(내부 게이트웨이 프로토콜)와 재분배(Redistribution)를 활용하여 **복잡한 네트워크 환경을 설계하고 구축**한 프로젝트
 - 🎯 **주요 기여**:
     - **통합 네트워크 구성**: OSPF, EIGRP, RIPv2 프로토콜을 이용한 라우팅 구성 및 프로토콜 간 재분배 구현
     - **보안 및 트래픽 관리**: OSPF 인증(Authentication), VLAN 및 Trunk 구성을 통한 논리적 네트워크 분리
     - **안정성 및 이중화**: STP(Spanning Tree Protocol) 및 EtherChannel 구성을 통한 네트워크 안정성 확보
+---
+ 
+### 2. APEX 방화벽 이중화 프로젝트 (팀 APEX)
+- **관련 문서**: [**방화벽 프로젝트 상세 문서 (PDF 미리보기)**](https://docs.google.com/viewer?url=https://raw.githubusercontent.com/sjg1894/sjg1894/main/docs/team2%20apex%20firewall%20project.pdf&embedded=true)
+- ⚙️ **기술 스택**: Cisco ASA Firewall, Security Context, ACL (Access Control List), Active-Active Failover, Router/Switch
+- 💡 **설명**: Cisco ASA 방화벽을 사용하여 다중 Context 환경에서 네트워크 보안 정책을 설계하고, **Active-Active 이중화** 구성을 통해 서비스의 고가용성(High Availability)을 확보한 보안 인프라 구축 프로젝트
+- 🎯 **주요 기여**:
+    - **방화벽 이중화 구현**: Active-Active Failover 설정을 통한 무중단 서비스 환경 구축
+    - **논리적 분리**: 방화벽 **Security Context** 설정을 통해 단일 장비를 다중 논리적 방화벽으로 분리하여 관리 효율성 증대
+    - **정밀한 통제**: Inside, Outside, DMZ 등 영역별 **ACL** 정책을 적용하여 트래픽에 대한 세부적인 보안 제어 구현
+---
+
