@@ -100,3 +100,35 @@
     - **가상화 환경 구축**: 서버 가상화의 개념 이해를 바탕으로 ESXi 호스트 및 vCenter Server 설치/설정 완료
     - **통합 관리**: vSphere Client를 사용하여 다수의 가상 서버에 대한 유연한 리소스 할당 및 중앙 집중식 관리 환경 구성
     - **인증 시스템 연동**: Active Directory를 설정하여 사용자 및 권한 관리를 위한 기초 시스템 연동 구현
+---
+
+### 5. AWS 클라우드 인프라 설계 및 구축 (개인 프로젝트)
+- **관련 문서**: [**AWS 개인 프로젝트**](https://docs.google.com/viewer?url=https://raw.githubusercontent.com/sjg1894/sjg1894/main/docs/AWS%20%EA%B0%9C%EC%9D%B8Project_%EC%84%9C%EC%9E%AC%EA%B6%8C.pdf&embedded=true)
+- ⚙️ **기술 스택**: AWS VPC, Subnet, Internet Gateway (IGW), NAT Gateway, Amazon EC2, SSH
+- 💡 **설명**: AWS 클라우드 환경에서 **VPC(Virtual Private Cloud)를 직접 설계하고 구축**한 프로젝트입니다. Public/Private 서브넷 및 NAT Gateway를 구성하여 **가용 영역(AZ)에 걸친 고가용성 네트워크 인프라**를 구현
+- 🎯 **주요 기여**:
+    - **VPC 및 서브넷 설계**: CIDR 블록(10.0.0.0/16)을 사용하여 VPC를 생성하고, 두 개의 가용 영역(AZ)에 걸쳐 Public/Private 서브넷을 구성
+    - **인터넷/아웃바운드 통신 제어**: IGW와 NAT Gateway를 설정하여 Public 서브넷의 직접 통신과 Private 서브넷의 안전한 외부 인터넷 접속 경로를 구현
+    - **구성 검증**: Amazon EC2 인스턴스를 생성하고 SSH를 통한 연결 확인 과정을 거쳐 구성된 네트워크의 작동을 검증
+---
+
+### 6. AWS 클라우드 기반 웹 서비스 구축 프로젝트 (2인)
+- **관련 문서**: [**AWS 2인 프로젝트**](https://docs.google.com/viewer?url=https://raw.githubusercontent.com/sjg1894/sjg1894/main/docs/AWS%202%EC%9D%B8%20%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8_%EC%84%9C%EC%9E%AC%EA%B6%8C_%EA%B9%80%EB%AF%BC%ED%98%B8.pdf&embedded=true)
+- ⚙️ **기술 스택**: AWS VPC, EC2, Application Load Balancer (ALB), Amazon RDS, Amazon S3, CloudWatch, SNS, CloudFormation
+- 💡 **설명**: AWS의 주요 서비스(Network, Compute, Database, Storage)를 통합하여 **다중 가용 영역(Multi-AZ) 기반의 고가용성 웹 서비스 인프라**를 구축하고 모니터링 시스템까지 구현한 종합 클라우드 프로젝트
+- 🎯 **주요 기여**:
+    - **네트워크 및 로드 밸런싱**: 다중 AZ에 걸친 VPC 및 Subnet 구성과 ALB를 통한 웹 트래픽 분산 구현
+    - **데이터베이스 구축**: RDS 인스턴스를 생성하고 보안 그룹을 설정하여 Private 서브넷에 안전하게 배치
+    - **모니터링 시스템 구축**: CloudWatch 및 SNS를 연동하여 서버 리소스 모니터링 및 알림 체계 구축
+    - **인프라 자동화**: CloudFormation을 활용하여 인프라를 코드로 관리(IaC)하고 EC2 인스턴스 배포 자동화 구현
+---
+
+### 7. APEX Terraform 기반 IaC 및 자동 배포 프로젝트 (팀 APEX)
+- **관련 문서**: [**Terraform IaC 프로젝트**](https://docs.google.com/viewer?url=https://raw.githubusercontent.com/sjg1894/sjg1894/main/docs/2_APEX_Terraform_Projcet.pdf&embedded=true)
+- ⚙️ **기술 스택**: Terraform, AWS (Provider), GitHub, Terraform Cloud, VSCode, IaC (Infrastructure as Code)
+- 💡 **설명**: HashiCorp의 **Terraform**을 사용하여 **인프라를 코드(IaC) 형태로 정의**하고, **Terraform Cloud 및 GitHub과의 연동**을 통해 클라우드 인프라를 자동화된 방식으로 배포 및 관리하는 시스템을 구축한 프로젝트
+- 🎯 **주요 기여**:
+    - **IaC 환경 구축**: Terraform 기본 개념(Provider, Resource, Variable 등)을 학습하고, 실제 AWS에 리소스를 배포할 수 있는 `.tf` 코드 작성
+    - **CI/CD 자동화 구현**: GitHub, Terraform Cloud, AWS를 연동하여 코드 변경 시 **자동으로 인프라가 배포(Auto-apply)**되도록 CI/CD 파이프라인 구축
+    - **도메인 관리**: Route53에 도메인을 등록하고, 도메인 등록 업체(가비아)의 NS 레코드 설정을 통해 최종적으로 서비스 접근 환경 구성
+  
