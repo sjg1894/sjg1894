@@ -82,3 +82,11 @@
     - **정밀한 통제**: Inside, Outside, DMZ 등 영역별 **ACL** 정책을 적용하여 트래픽에 대한 세부적인 보안 제어 구현
 ---
 
+### 3. APEX 리눅스 서버 및 시스템 관리 프로젝트 (팀 APEX)
+- **관련 문서**: [**리눅스 프로젝트**](https://docs.google.com/viewer?url=https://raw.githubusercontent.com/sjg1894/sjg1894/main/docs/apex%20%EB%A6%AC%EB%88%85%EC%8A%A4%20%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8.pdf&embedded=true)
+- ⚙️ **기술 스택**: Rocky Linux, LVM (Logical Volume Manager), 디스크 쿼터, SSH, DNS, Web/FTP/NFS/Samba/DHCP/Mail Server
+- 💡 **설명**: Rocky Linux 환경을 기반으로 IP 주소 설정부터 사용자 및 그룹 등록, 그리고 총 9가지의 필수 서비스 서버(DNS, Web, FTP 등)를 구축 및 설정한 종합 시스템 관리 프로젝트입니다.
+- 🎯 **주요 기여**:
+    - **통합 서비스 구축**: SSH, XRDP, DNS, Web, FTP, NFS, Samba, DHCP, Mail 등 다양한 서버 서비스 설정 및 기능 구현.
+    - **시스템 자원 관리**: 디스크 추가 후 **LVM** 구성을 통한 동적 볼륨 관리 및 **디스크 쿼터** 설정을 통한 효율적인 사용자 자원 제한 구현.
+    - **기반 환경 설정**: Rocky Linux 기반의 네트워크 주소 설정 및 사용자/그룹 등록 등 초기 시스템 구성 작업 완료.
