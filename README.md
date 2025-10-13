@@ -62,11 +62,11 @@
 
 ## 💼 Projects
 
-### 1. 네트워크 프로젝트
-- 📄 **관련 문서**: [**네트워크 프로젝트**](https://docs.google.com/viewer?url=https://raw.githubusercontent.com/sjg1894/sjg1894/main/docs/2_APEX%20network_project.pdf&embedded=true)
-- 🛠 **기술 스택**: Node.js, Firebase, Firestore, Express, 카카오톡 API  
-- 💡 **설명**: 감정 카드를 작성하고 AI 분석을 통해 감정을 피드백해주는 서비스  
+### 1. 네트워크 프로젝트 (팀 APEX)
+- **관련 문서**: [네트워크 프로젝트](https://docs.google.com/viewer?url=https://raw.githubusercontent.com/sjg1894/sjg1894/main/docs/2_APEX%20network_project.pdf&embedded=true)
+- ⚙️ **기술 스택**: Cisco Router/Switch, EIGRP, OSPF, RIPv2, VLAN, Trunk, DHCP, STP
+- 💡 **설명**: OSPF, EIGRP 등 다양한 IGP(내부 게이트웨이 프로토콜)와 재분배(Redistribution)를 활용하여 **복잡한 네트워크 환경을 설계하고 구축**한 프로젝트입니다.
 - 🎯 **주요 기여**:
-  - 백엔드 서버 구축 및 데이터베이스 설계  
-  - AI 기반 감정 분석 알고리즘 구현  
-  - 배포 및 운영 모니터링 환경 구축  
+    - **통합 네트워크 구성**: OSPF, EIGRP, RIPv2 프로토콜을 이용한 라우팅 구성 및 프로토콜 간 재분배 구현
+    - **보안 및 트래픽 관리**: OSPF 인증(Authentication), VLAN 및 Trunk 구성을 통한 논리적 네트워크 분리
+    - **안정성 및 이중화**: STP(Spanning Tree Protocol) 및 EtherChannel 구성을 통한 네트워크 안정성 확보
