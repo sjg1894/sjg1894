@@ -72,7 +72,7 @@
     - **안정성 및 이중화**: STP(Spanning Tree Protocol) 및 EtherChannel 구성을 통한 네트워크 안정성 확보
 ---
  
-### 2. APEX 방화벽 이중화 프로젝트 (팀 APEX)
+### 2. 방화벽 이중화 프로젝트 (팀 APEX)
 - **관련 문서**: [**방화벽 프로젝트**](https://docs.google.com/viewer?url=https://raw.githubusercontent.com/sjg1894/sjg1894/main/docs/team2%20apex%20firewall%20project.pdf&embedded=true)
 - ⚙️ **기술 스택**: Cisco ASA Firewall, Security Context, ACL (Access Control List), Active-Active Failover, Router/Switch
 - 💡 **설명**: Cisco ASA 방화벽을 사용하여 다중 Context 환경에서 네트워크 보안 정책을 설계하고, **Active-Active 이중화** 구성을 통해 서비스의 고가용성(High Availability)을 확보한 보안 인프라 구축 프로젝트
@@ -82,11 +82,21 @@
     - **정밀한 통제**: Inside, Outside, DMZ 등 영역별 **ACL** 정책을 적용하여 트래픽에 대한 세부적인 보안 제어 구현
 ---
 
-### 3. APEX 리눅스 서버 및 시스템 관리 프로젝트 (팀 APEX)
+### 3. 리눅스 서버 및 시스템 관리 프로젝트 (팀 APEX)
 - **관련 문서**: [**리눅스 프로젝트**](https://docs.google.com/viewer?url=https://raw.githubusercontent.com/sjg1894/sjg1894/main/docs/apex%20%EB%A6%AC%EB%88%85%EC%8A%A4%20%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8.pdf&embedded=true)
 - ⚙️ **기술 스택**: Rocky Linux, LVM (Logical Volume Manager), 디스크 쿼터, SSH, DNS, Web/FTP/NFS/Samba/DHCP/Mail Server
-- 💡 **설명**: Rocky Linux 환경을 기반으로 IP 주소 설정부터 사용자 및 그룹 등록, 그리고 총 9가지의 필수 서비스 서버(DNS, Web, FTP 등)를 구축 및 설정한 종합 시스템 관리 프로젝트입니다.
+- 💡 **설명**: Rocky Linux 환경을 기반으로 IP 주소 설정부터 사용자 및 그룹 등록, 그리고 총 9가지의 필수 서비스 서버(DNS, Web, FTP 등)를 구축 및 설정한 종합 시스템 관리 프로젝트
 - 🎯 **주요 기여**:
-    - **통합 서비스 구축**: SSH, XRDP, DNS, Web, FTP, NFS, Samba, DHCP, Mail 등 다양한 서버 서비스 설정 및 기능 구현.
-    - **시스템 자원 관리**: 디스크 추가 후 **LVM** 구성을 통한 동적 볼륨 관리 및 **디스크 쿼터** 설정을 통한 효율적인 사용자 자원 제한 구현.
-    - **기반 환경 설정**: Rocky Linux 기반의 네트워크 주소 설정 및 사용자/그룹 등록 등 초기 시스템 구성 작업 완료.
+    - **통합 서비스 구축**: SSH, XRDP, DNS, Web, FTP, NFS, Samba, DHCP, Mail 등 다양한 서버 서비스 설정 및 기능 구현
+    - **시스템 자원 관리**: 디스크 추가 후 **LVM** 구성을 통한 동적 볼륨 관리 및 **디스크 쿼터** 설정을 통한 효율적인 사용자 자원 제한 구현
+    - **기반 환경 설정**: Rocky Linux 기반의 네트워크 주소 설정 및 사용자/그룹 등록 등 초기 시스템 구성 작업 완료
+---
+
+### 4. vSphere 서버 가상화 구현 프로젝트 (팀 APEX)
+- **관련 문서**: [**vSphere 프로젝트**](https://docs.google.com/viewer?url=https://raw.githubusercontent.com/sjg1894/sjg1894/main/docs/2%EC%A1%B0_APEX_vSphere.pdf&embedded=true)
+- ⚙️ **기술 스택**: VMware vSphere, ESXi Host, vCenter Server, Active Directory, vSphere Client
+- 💡 **설명**: **VMware vSphere** 솔루션을 활용하여 **서버 가상화 환경**을 구축하고, **ESXi 호스트**와 **vCenter Server**를 연동하여 가상 서버들을 통합 관리할 수 있는 시스템을 구현한 프로젝트
+- 🎯 **주요 기여**:
+    - **가상화 환경 구축**: 서버 가상화의 개념 이해를 바탕으로 ESXi 호스트 및 vCenter Server 설치/설정 완료
+    - **통합 관리**: vSphere Client를 사용하여 다수의 가상 서버에 대한 유연한 리소스 할당 및 중앙 집중식 관리 환경 구성
+    - **인증 시스템 연동**: Active Directory를 설정하여 사용자 및 권한 관리를 위한 기초 시스템 연동 구현
