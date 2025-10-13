@@ -3,7 +3,7 @@
 
 # 📂 소개
 - 🌱 현재: 시스템 엔지니어 취업 준비 중  
-- 📝 이력서: [이력서_서재권.pdf]()
+- 📝 이력서: [이력서_서재권.pdf](https://github.com/sjg1894/sjg1894/blob/7bf9540da8afd6d6dc663fd5532deac53473b190/docs/%EB%AA%85%EC%A7%80%EC%A0%84%EB%AC%B8%EB%8C%80%20%EC%A0%95%EB%B3%B4_%EC%84%9C%EC%9E%AC%EA%B6%8C.pdf)
 - 노션 공부 자료: [Notion](https://www.notion.so/Notion-26fd5fed034680ffab0fe04d41562d2e)
 - 🏆 주요 자격증: AWS Certified Data Engineer – Associate (DEA), Terraform associate 003, Cisco Certified Network Associate (CCNA) 200-301
 <div align="left">
