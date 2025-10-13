@@ -63,7 +63,7 @@
 ## 💼 Projects
 
 ### 1. 네트워크 프로젝트
-- 📄 **관련 문서**: [**네트워크 프로젝트**](./docs/2_APEX network_project.pdf)
+- 📄 **관련 문서**: [**네트워크 프로젝트**](https://docs.google.com/viewer?url=https://raw.githubusercontent.com/sjg1894/sjg1894/main/docs/2_APEX%20network_project.pdf&embedded=true)
 - 🛠 **기술 스택**: Node.js, Firebase, Firestore, Express, 카카오톡 API  
 - 💡 **설명**: 감정 카드를 작성하고 AI 분석을 통해 감정을 피드백해주는 서비스  
 - 🎯 **주요 기여**:
