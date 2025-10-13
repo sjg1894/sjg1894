@@ -73,7 +73,7 @@
 ---
  
 ### 2. APEX 방화벽 이중화 프로젝트 (팀 APEX)
-- **관련 문서**: [**방화벽 프로젝트 상세 문서 (PDF 미리보기)**](https://docs.google.com/viewer?url=https://raw.githubusercontent.com/sjg1894/sjg1894/main/docs/team2%20apex%20firewall%20project.pdf&embedded=true)
+- **관련 문서**: [**방화벽 프로젝트**](https://docs.google.com/viewer?url=https://raw.githubusercontent.com/sjg1894/sjg1894/main/docs/team2%20apex%20firewall%20project.pdf&embedded=true)
 - ⚙️ **기술 스택**: Cisco ASA Firewall, Security Context, ACL (Access Control List), Active-Active Failover, Router/Switch
 - 💡 **설명**: Cisco ASA 방화벽을 사용하여 다중 Context 환경에서 네트워크 보안 정책을 설계하고, **Active-Active 이중화** 구성을 통해 서비스의 고가용성(High Availability)을 확보한 보안 인프라 구축 프로젝트
 - 🎯 **주요 기여**:
