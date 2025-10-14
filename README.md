@@ -120,7 +120,7 @@
     - **인프라 자동화**: CloudFormation을 활용하여 인프라를 코드로 관리(IaC)하고 EC2 인스턴스 배포 자동화 구현
 ---
 
-### 7. APEX Terraform 기반 IaC 및 자동 배포 프로젝트 (팀 APEX)
+### 7. Terraform 기반 IaC 및 자동 배포 프로젝트 (팀 APEX)
 - **관련 문서**: [**Terraform IaC 프로젝트**](https://docs.google.com/viewer?url=https://raw.githubusercontent.com/sjg1894/sjg1894/main/docs/2_APEX_Terraform_Projcet.pdf&embedded=true)
 - ⚙️ **기술 스택**: Terraform, AWS (Provider), GitHub, Terraform Cloud, VSCode, IaC (Infrastructure as Code)
 - 💡 **설명**: HashiCorp의 **Terraform**을 사용하여 **인프라를 코드(IaC) 형태로 정의**하고, **Terraform Cloud 및 GitHub과의 연동**을 통해 클라우드 인프라를 자동화된 방식으로 배포 및 관리하는 시스템을 구축한 프로젝트
@@ -128,4 +128,13 @@
     - **IaC 환경 구축**: Terraform 기본 개념(Provider, Resource, Variable 등)을 학습하고, 실제 AWS에 리소스를 배포할 수 있는 `.tf` 코드 작성
     - **CI/CD 자동화 구현**: GitHub, Terraform Cloud, AWS를 연동하여 코드 변경 시 **자동으로 인프라가 배포(Auto-apply)**되도록 CI/CD 파이프라인 구축
     - **도메인 관리**: Route53에 도메인을 등록하고, 도메인 등록 업체(가비아)의 NS 레코드 설정을 통해 최종적으로 서비스 접근 환경 구성
-  
+---
+
+### 8. AWS EKS 컨테이너 오케스트레이션 프로젝트 (팀 APEX)
+- **관련 문서**: [**AWS EKS 프로젝트**](https://docs.google.com/viewer?url=https://raw.githubusercontent.com/sjg1894/sjg1894/main/docs/APEX_AWS_EKS_project.pdf&embedded=true)
+- ⚙️ **기술 스택**: AWS EKS (Elastic Kubernetes Service), Kubernetes, EC2, Bastion Host, Docker (inferred), IAM
+- 💡 **설명**: AWS 클라우드 환경에서 **EKS(Elastic Kubernetes Service) 클러스터를 구축**하고, **Bastion Host**를 통해 클러스터에 안전하게 접속하여 컨테이너화된 애플리케이션을 배포 및 관리하기 위한 기반을 마련한 프로젝트
+- 🎯 **주요 기여**:
+    - **클러스터 접근 환경 구축**: EKS 클러스터 관리를 위한 **Bastion Host (EC2)**를 설정하고, 안전한 접속을 위한 키 페어 생성
+    - **EKS 클러스터 배포**: AWS EKS를 이용해 쿠버네티스(Kubernetes) 마스터 노드 관리 및 워커 노드 구성 자동화 (프로젝트 핵심 목표)
+    - **컨테이너 환경 기반 마련**: 쿠버네티스 명령어를 활용하여 애플리케이션을 배포하고 모니터링할 수 있는 환경 구성 (프로젝트 핵심 목표)
