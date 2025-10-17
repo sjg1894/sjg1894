@@ -131,7 +131,7 @@
 ---
 
 ### 8. AWS EKS 컨테이너 오케스트레이션 프로젝트 (팀 APEX)
-- **관련 문서**: [**AWS EKS 프로젝트**](https://docs.google.com/viewer?url=https://raw.githubusercontent.com/sjg1894/sjg1894/main/docs/APEX_AWS_EKS_project.pdf&embedded=true)
+- **관련 문서**: [**AWS EKS 프로젝트**](https://github.com/sjg1894/sjg1894/blob/3ce2d92e5a8557014ed10c720c189733c5f71d1a/docs/APEX_team2_AWS_EKS_project.pdf)
 - ⚙️ **기술 스택**: AWS EKS (Elastic Kubernetes Service), Kubernetes, EC2, Bastion Host, Docker (inferred), IAM
 - 💡 **설명**: AWS 클라우드 환경에서 **EKS(Elastic Kubernetes Service) 클러스터를 구축**하고, **Bastion Host**를 통해 클러스터에 안전하게 접속하여 컨테이너화된 애플리케이션을 배포 및 관리하기 위한 기반을 마련한 프로젝트
 - 🎯 **주요 기여**:
